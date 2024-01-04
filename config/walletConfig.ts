@@ -12,7 +12,7 @@ import sequenceModule from '@web3-onboard/sequence'
 import tallyHoModule from '@web3-onboard/tallyho'
 import enkryptModule from '@web3-onboard/enkrypt'
 
-const INFURA_KEY = process.env.NEXT_PUBLIC_INFURA_KEY
+const INFURA_KEY = "27f7efbb24f844c69cd0588dc48b1abe"
 
 const chains = [
   {
@@ -59,8 +59,8 @@ const chains = [
   },
 ]
 const walletConnectOptions = {
-  bridge: 'https://bridge.walletconnect.org', // Example bridge URL
-  infuraId: 'YOUR_INFURA_ID', // Replace with your Infura ID
+
+  infuraId: '27f7efbb24f844c69cd0588dc48b1abe', // Replace with your Infura ID
   // Add other necessary WalletConnectOptions here
 };
 const injected = injectedModule()
